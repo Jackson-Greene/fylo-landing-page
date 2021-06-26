@@ -1,0 +1,77 @@
+$very-dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%);
+$light-grayish-blue: hsl(240, 75%, 98%);
+$light-gray: hsl(0, 0%, 75%);
+
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    a
+    {
+        text-decoration: none;
+        color: $light-gray;
+    }
+}
+
+.footer
+{
+    background: $very-dark-blue;
+    color: $light-gray;
+    padding: 3rem 2rem;
+
+    .main-contact
+    {
+        padding-bottom: 3rem;
+        .phone
+        {
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
+        }
+
+        img
+        {
+            padding-right: 1.1rem;
+            margin: 0;
+        }
+    }
+
+    .primary-links
+    {
+        padding-bottom: 2.5rem;
+        ul
+        {
+            li
+            {
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+
+    .secondary-links
+    {
+        padding-bottom: 2.5rem;
+        ul
+        {
+            li
+            {
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+
+    .social-links
+    {
+        text-align: center;
+
+        img
+        {
+            margin: 0 0.8rem;
+        }
+    }
+}

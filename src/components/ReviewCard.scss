@@ -1,0 +1,55 @@
+$very-dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+$bright-blue: hsl(224, 93%, 58%);
+$moderate-cyan: hsl(170, 45%, 43%);
+$light-grayish-blue: hsl(240, 75%, 98%);
+$light-gray: hsl(0, 0%, 75%);
+
+.review-card
+{
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1.6rem 2.3rem;
+    padding-bottom: 1.7rem;
+
+    .quote-image
+    {
+        width: 0.95rem;
+    }
+
+    p
+    {
+        font-size: 0.82rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.9rem;
+        margin: 0;
+    }
+
+    .profile-container
+    {
+        display: flex;
+        img
+        {
+            border-radius: 50%;
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-right: 0.8rem;
+        }
+
+        .profile-text
+        {
+            padding-top: 0.345rem;
+            font-size: 0.7rem;
+            line-height: 1.1rem;
+    
+            span
+            {
+                font-weight: bold;
+                font-size: 1rem;
+            }
+        }
+    }
+
+
+}

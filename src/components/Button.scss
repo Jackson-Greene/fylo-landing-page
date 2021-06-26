@@ -1,0 +1,29 @@
+$very-dark-blue: hsl(243, 87%, 12%);
+$desaturated-blue: hsl(238, 22%, 44%);
+$bright-blue: hsl(224, 93%, 58%);
+$light-blue: hsl(224, 97%, 62%);
+$moderate-cyan: hsl(170, 45%, 43%);
+$light-grayish-blue: hsl(240, 75%, 98%);
+$light-gray: hsl(0, 0%, 75%);
+
+.button
+{
+    a
+    {
+        display: block;
+        text-align: center;
+        padding: 1.1rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        font-family: 'Raleway';
+        text-decoration: none;
+        color: white;
+        background: $bright-blue;
+        border-radius: 0.25rem;
+
+        &:hover
+        {
+            background: $light-blue;
+        }
+    }
+}
